@@ -316,9 +316,9 @@ while(stillLearning){
 
 ### 🌐 Let's Connect
 
-- 💼 **GitHub:** [Your Profile](https://github.com/yourprofile)
-- 📘 **LinkedIn:** [Your LinkedIn](https://linkedin.com)
-- 💻 **LeetCode:** [Your LeetCode](https://leetcode.com/yourprofile)
+- 💼 **GitHub:** [Your Profile](https://github.com/Shreyagrawalcode)
+- 📘 **LinkedIn:** [Your LinkedIn](https://www.linkedin.com/in/shreya-cy/)
+- 💻 **LeetCode:** [Your LeetCode](https://leetcode.com/u/shreyaagrawalcode/)
 
 ### ⚖️ License & Notes
 
