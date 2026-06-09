@@ -1,35 +1,31 @@
-
 import java.util.Scanner;
 
 public class Palindrome {
 
-    static boolean checkPalindrome(String str, int s, int e) { 
-        if (s == e)    
-            return true;  
+    static boolean isPalindrome(String s, int i, int j) {
 
-        if ((str.charAt(s)) != (str.charAt(e))) 
-            return false;   
-        
-        if (s < e + 1) 
-            return checkPalindrome(str, s + 1, e - 1);   
-        return true; 
-    }   
-    static boolean isPalindrome(String str) 
-    { 
-        int n = str.length();   
-    
-        if (n == 0) 
-            return true;   
-        return checkPalindrome(str, 0, n - 1); 
-    }    
-    public static void main(String args[]) 
-    { 
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the String :");
-        String str = sc.nextLine();   
-        if (isPalindrome(str)) 
-            System.out.println(str+" is palindrome"); 
+        if (i >= j) return true;
+
+        if (s.charAt(i) != s.charAt(j)) return false;
+
+        return isPalindrome(s, i + 1, j - 1);
+    }
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // 1. Prompt the user for input
+        System.out.print("Enter a string: ");
+        String str = scanner.nextLine();
+
+        // 2. Check if the entered string is a palindrome
+        // Note: You might want to use str.toLowerCase() if you want it to be case-insensitive (e.g., "Madam" -> Palindrome)
+        if (isPalindrome(str, 0, str.length() - 1))
+            System.out.println("Palindrome");
         else
-            System.out.println(str+ " is not a palindrome"); 
-    }   
+            System.out.println("Not Palindrome");
+            
+        // Close the scanner
+        scanner.close();
+    }
 }
