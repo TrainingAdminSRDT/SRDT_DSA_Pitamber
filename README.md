@@ -14,14 +14,14 @@
 
 | # | Topic                                                                                                     | Count | Problems                                                                               |
 | - | --------------------------------------------------------------------------------------------------------- | ----- | -------------------------------------------------------------------------------------- |
-| 1 | [Math](https://claude.ai/chat/bfff8ff5-375a-497a-afb9-2000181b3d48#1-math)                                | 15    | 7, 9, 13, 50, 66, 69, 202, 204, 231, 263, 326, 342, 367, 507, 1281                     |
-| 2 | [Bit Manipulation](https://claude.ai/chat/bfff8ff5-375a-497a-afb9-2000181b3d48#2-bit-manipulation)        | 3     | 190, 191, 405                                                                          |
-| 3 | [Array / Two Pointers](https://claude.ai/chat/bfff8ff5-375a-497a-afb9-2000181b3d48#3-array--two-pointers) | 18    | 26, 27, 35, 53, 88, 118, 121, 167, 169, 217, 219, 283, 349, 350, 867, 1207, 1726, 1929 |
-| 4 | [String](https://claude.ai/chat/bfff8ff5-375a-497a-afb9-2000181b3d48#4-string)                            | 13    | 3, 5, 6, 8, 14, 28, 58, 125, 242, 344, 383, 387, 657                                   |
-| 5 | [Hash Table](https://claude.ai/chat/bfff8ff5-375a-497a-afb9-2000181b3d48#5-hash-table)                    | 3     | 49, 705, 771                                                                           |
-| 6 | [Stack](https://claude.ai/chat/bfff8ff5-375a-497a-afb9-2000181b3d48#6-stack)                              | 1     | 20                                                                                     |
-| 7 | [Linked List](https://claude.ai/chat/bfff8ff5-375a-497a-afb9-2000181b3d48#7-linked-list)                  | 2     | 21, 206                                                                                |
-| 8 | [Backtracking](https://claude.ai/chat/bfff8ff5-375a-497a-afb9-2000181b3d48#8-backtracking)                | 15    | 17, 22, 37, 39, 40, 46, 47, 51, 52, 77, 78, 79, 90, 113, 216                           |
+| 1 | Math                                | 15    | 7, 9, 13, 50, 66, 69, 202, 204, 231, 263, 326, 342, 367, 507, 1281                     |
+| 2 | Bit Manipulation        | 3     | 190, 191, 405                                                                          |
+| 3 | Array / Two Pointers | 18    | 26, 27, 35, 53, 88, 118, 121, 167, 169, 217, 219, 283, 349, 350, 867, 1207, 1726, 1929 |
+| 4 | String                            | 13    | 3, 5, 6, 8, 14, 28, 58, 125, 242, 344, 383, 387, 657                                   |
+| 5 | Hash Table                    | 3     | 49, 705, 771                                                                           |
+| 6 | Stack                              | 1     | 20                                                                                     |
+| 7 | Linked List                  | 2     | 21, 206                                                                                |
+| 8 | Backtracking                | 15    | 17, 22, 37, 39, 40, 46, 47, 51, 52, 77, 78, 79, 90, 113, 216                           |
 
 ***
 
