@@ -1,0 +1,11 @@
+def array_sum(arr, n):
+    if n == 0:          # Base case
+        return 0
+
+    return arr[n - 1] + array_sum(arr, n - 1)
+
+arr = [10, 20, 30, 40, 50]
+
+result = array_sum(arr, len(arr))
+
+print("Sum of array elements =", result)
