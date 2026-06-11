@@ -1,6 +1,5 @@
-
-
 import java.util.*; 
+
 public class TrianglePattern {
     public static void main(String[] args)
     {
@@ -8,22 +7,20 @@ public class TrianglePattern {
         System.out.println("Enter the number of rows to be printed");
         int rows = sc.nextInt();
 
-       
         for (int i = 1; i <= rows; i++) {
-
             
             for (int j = rows; j >= i; j--) {
                 System.out.print(" ");
             }
-
             
             for (int j = 1; j <= i; j++) {
                 System.out.print("* ");
             }
-
             
             System.out.println();
         }
+        
+        // Add this line to close the Scanner and remove the yellow warning!
+        sc.close(); 
     }
 }
-    
