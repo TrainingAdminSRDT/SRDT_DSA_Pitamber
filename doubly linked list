@@ -1,0 +1,25 @@
+import java.util.LinkedList;
+
+public class main linkedList {
+    public static void main(String[] args) {
+        
+        LinkedList<String> list = new LinkedList<>();
+
+        
+        list.add("Middle");       
+        list.addFirst("Head");     
+        list.addLast("Tail");      
+        
+        String first = list.getFirst();
+        String last = list.getLast();
+
+       
+        list.removeFirst();
+        list.removeLast();
+
+        
+        System.out.println(list);
+    }
+}
+
+    
