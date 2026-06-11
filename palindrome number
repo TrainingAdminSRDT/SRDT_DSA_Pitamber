@@ -1,0 +1,30 @@
+lass Solution {
+
+    public boolean isPalindrome(int x) {
+
+        // Negative numbers are not palindrome
+        if (x < 0) {
+            return false;
+        }
+
+        String s = Integer.toString(x);
+
+        return checkPalindrome(s, 0, s.length() - 1);
+    }
+
+    private boolean checkPalindrome(String s, int left, int right) {
+
+        while (left < right) {
+
+            if (s.charAt(left) != s.charAt(right)) {
+                return false;
+            }
+
+            left++;
+            right--;
+        }
+
+        return true;
+    }
+}
+
