@@ -1,7 +1,4 @@
-package SRDT_DSA_Pitamber;
-
 public class palindrone {
-    class Main {
     public static void main(String[] args) {
         int num=121;
         int temp=num;
@@ -19,5 +16,4 @@ public class palindrone {
         
         
     }
-}
 }
