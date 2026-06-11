@@ -19,10 +19,3 @@ class Solution:
                     return False
 
         return len(stack) == 0
-
-
-# Driver code
-obj = Solution()
-print(obj.isValid("()"))
-print(obj.isValid("()[]{}"))
-print(obj.isValid("(]"))
