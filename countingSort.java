@@ -7,7 +7,6 @@ public class countingSort {
         for (int num : arr) {
             max = Math.max(max, num);
          }
-
         int[] count = new int[max + 1];
         for (int num : arr) {
             count[num]++;
@@ -20,7 +19,6 @@ public class countingSort {
             }
         }
     }
-
     public static void main(String[] args) {
         int[] arr = {4, 2, 2, 8, 3, 3, 1};
 

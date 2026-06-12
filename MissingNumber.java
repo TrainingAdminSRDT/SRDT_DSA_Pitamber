@@ -7,7 +7,6 @@ public class MissingNumber {
            }
         return expectedSum- actualSum; }
 
-
     public static void main(String[] args) {
         int[] arr = {1,2,4,5};
         System.out.println(findMissing(arr, 5));
